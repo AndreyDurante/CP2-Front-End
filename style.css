@@ -2,6 +2,9 @@
   --slate-950: #020617;
   --blue-950: #172554;
   --slate-900: #0f172a;
+  --blue-400: #60a5fa; 
+  --blue-600: #2563eb; 
+  --blue-500: #164dc5; 
 }
 
 
@@ -20,6 +23,7 @@ body {
     color: white;
     font-family: "Roboto", sans-serif;
     font-style: normal;
+    scroll-behavior: smooth;
 }
 
 a {
@@ -39,7 +43,7 @@ header {
 header a{
     text-decoration: none;
     font-size: 20px;
-    color: dimgray;
+    color: rgb(179, 179, 179);
 }
 
 header a:hover{
@@ -47,7 +51,7 @@ header a:hover{
 }
 
 .links {
-    gap: 25px;
+    gap: 33px;
     /* background-color: red; */
     display: flex;
     justify-content: center;
@@ -57,11 +61,58 @@ header a:hover{
 }
 
 #button-header {
-    background-color: var(--blue-950);
-    padding: 20px 10px;
+    background-color: var(--blue-500);
+    padding: 15px 30px;
     border-radius: 17px;
+    color: white;
+    font-size: 18px;
+}
+
+#button-header:hover{
+    background-color: var(--blue-950);
+}
+
+#button-header:active{
+    background-color: var(--blue-950);
 }
 
 #logo {
     width: 250px;
+}
+
+.nossa-equipe {
+    height: 100vh;
+    background-color: cadetblue;
+    display: flex;
+    flex-direction: column;
+}
+
+.nossa-equipe h1{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.cards {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+    background-color: aqua;
+}
+
+.integrante {
+    background-color: #172554;
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    padding-left: 30px;
+}
+
+.topo {
+    height: 50px;
+    font-size: 20px;
 }
