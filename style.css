@@ -7,6 +7,10 @@
   --blue-500: #164dc5; 
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 
 .font-text {
   font-family: "Roboto", sans-serif;
@@ -23,7 +27,7 @@ body {
     color: white;
     font-family: "Roboto", sans-serif;
     font-style: normal;
-    scroll-behavior: smooth;
+    
 }
 
 a {
@@ -95,6 +99,7 @@ header a:hover{
 }
 
 .cards {
+    min-width: 200px;
     margin-top: 40px;
     display: flex;
     justify-content: center;
@@ -107,7 +112,7 @@ header a:hover{
 
 .integrante {
     background-color: #172554;
-    width: 800px;
+    width: 650px;
     display: flex;
     flex-direction: column;
     margin: 5px;
@@ -168,10 +173,33 @@ header a:hover{
     height: 50px;
 }
 
+.inputs {
+    padding-left: 10px;
+}
+
 .inputs:focus{
     background-color: #60a5fa;
 }
 
-.inputs::placeholder{
-    padding-left: 10px;
+
+.inputs:invalid{
+    background-color: red;
+}
+
+.inputs::selection{
+    background-color: aqua;
+}
+
+.botaoLogin {
+    padding: 15px 10px;
+    background-color: var(--blue-400);
+    width: 25%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.botaoLogin:visited{
+    background-color: var(--blue-500);
 }
