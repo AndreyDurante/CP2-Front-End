@@ -1,27 +1,4 @@
-<!doctype html>
-<html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <title>FGA Sistemas</title>
-  </head>
-  <body>
-    <header class="container">    
-        <img src="./images/logo-arrumada.png" alt="" id="logo">
-        <div class="links">
-            <a href="">Início</a>
-            <a href="">Serviços</a>
-            <a href="">Equipe</a>
-            <a href="">Contato</a> 
-        </div>
-        <a href="" id="button-header" target="_blank">Fale conosco</a>
-    </header>
-
-    <!--Nossa Equipe -->
+<--Nossa Equipe -->
      <section class="nossa-equipe">
          <!-- 1 CARD -->
          <h1 id="title-nossa">Nossa Equipe</h1>
@@ -66,20 +43,4 @@
             
         </div>
      </section>
-    <!-- Fim Nossa Equipe-->
-
-    <!-- Sessão Cadastre-se -->
-     <section class="cadastrese">
-        <h1>Cadastre-se</h1>
-        <div class="check">
-            <h4>Nome de Usuário</h4>
-            <input type="text" class="inputs" placeholder="Seu nome">
-            <h4>Insira seu e-mail</h4>
-            <input type="email" class="inputs" placeholder="example@email.com">
-            <h4>Coloque uma senha segura</h4>
-            <input type="password" class="inputs" placeholder="Ex: abcde12345">
-        </div>
-     </section>
-    <!-- Fim Sessão Cadastre-se -->
-  </body>
-</html>
+    <!-- Fim Nossa Equipe
