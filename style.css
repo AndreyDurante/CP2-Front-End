@@ -169,3 +169,167 @@ footer {
     align-items: center;
     gap: 30px; */
 }
+/* ===== SEÇÃO CONTATO FGA ===== */
+
+html {
+  scroll-behavior: smooth;
+}
+
+.fga-contato {
+  min-height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 20px;
+}
+
+.fga-card {
+  width: 750px;
+  max-width: 100%;
+  background: linear-gradient(90deg, #18398f, #0f4c6e);
+  padding: 70px 40px;
+  border-radius: 20px;
+  text-align: center;
+  border: 1px solid rgba(255,255,255,0.1);
+  box-shadow: 0 0 20px rgba(0,0,0,0.3);
+}
+
+.fga-card h1 {
+  font-size: 48px;
+  margin-bottom: 15px;
+  color: white;
+}
+
+.fga-card p {
+  color: #d1d8e8;
+  font-size: 18px;
+  margin-bottom: 35px;
+}
+
+.fga-btn {
+  display: inline-block;
+  background: white;
+  color: #1d2f5f;
+  text-decoration: none;
+  padding: 15px 35px;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.fga-btn:hover {
+  transform: scale(1.05);
+}
+
+/* RESPONSIVO */
+
+@media (max-width: 768px) {
+
+  .fga-card {
+    padding: 50px 25px;
+  }
+
+  .fga-card h1 {
+    font-size: 34px;
+  }
+
+}
+
+/* ===== SEÇÃO CONTATO ===== */
+
+.fga-contato {
+  min-height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 20px;
+}
+
+.fga-card {
+  width: 750px;
+  max-width: 100%;
+  background: linear-gradient(90deg, #18398f, #0f4c6e);
+  padding: 70px 40px;
+  border-radius: 20px;
+  text-align: center;
+  border: 1px solid rgba(255,255,255,0.1);
+  box-shadow: 0 0 20px rgba(0,0,0,0.3);
+}
+
+.fga-card h1 {
+  font-size: 48px;
+  margin-bottom: 15px;
+  color: white;
+}
+
+.fga-card p {
+  color: #d1d8e8;
+  font-size: 18px;
+  margin-bottom: 35px;
+}
+
+.fga-btn {
+  display: inline-block;
+  background: white;
+  color: #1d2f5f;
+  text-decoration: none;
+  padding: 15px 35px;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.fga-btn:hover {
+  transform: scale(1.05);
+}
+
+/* ===== INFO ABAIXO DO CARD ===== */
+
+.fga-info {
+  width: 100%;
+  padding: 60px 80px;
+  border-top: 1px solid rgba(255,255,255,0.08);
+
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.fga-info-box h3 {
+  color: white;
+  font-size: 22px;
+  margin-bottom: 15px;
+}
+
+.fga-info-box p {
+  color: #c8d2e5;
+  line-height: 1.8;
+}
+
+/* SCROLL SUAVE */
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* RESPONSIVO */
+
+@media (max-width: 768px) {
+
+  .fga-card {
+    padding: 50px 25px;
+  }
+
+  .fga-card h1 {
+    font-size: 34px;
+  }
+
+  .fga-info {
+    padding: 40px 20px;
+    flex-direction: column;
+  }
+
+}
