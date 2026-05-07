@@ -147,3 +147,25 @@ header a:hover{
     align-items: center;
     padding-bottom: 10px;
 }
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: var(--slate-950);
+}
+
+
+.rodape {
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        color: white;
+
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px; */
+}
