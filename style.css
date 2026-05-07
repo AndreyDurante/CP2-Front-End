@@ -84,6 +84,59 @@ header a:hover{
     width: 250px;
 }
 
+.inicio {
+    display: flex;
+    height: 100vh;
+    background-color: #172554;
+    flex-direction: column;
+}
+
+.topo-inicio{
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    align-items: center;
+    font-size: 22px;
+}
+
+.topo-inicio p{
+    font-size: 15px;
+    padding-top: 0;
+}
+
+.sistemas {
+    color: #7ea6d4;
+    border-radius: 25px;
+}
+
+.btn-inicio {
+    margin-top: 50px;
+    padding: 20px 30px;
+    font-size: 20px;
+    background-color: var(--blue-500);
+    border-radius: 15px;
+}
+
+.qualidades {
+    /* width: 200px; */
+    padding-top: 100px;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.cartoes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    background-color: var(--slate-900);
+    padding: 20px;
+    border-radius: 20px;
+}
 .nossa-equipe {
     height: 100vh;
     /* background-color: cadetblue; */
@@ -113,7 +166,7 @@ header a:hover{
 
 .integrante {
     background-color: #172554;
-    width: 650px;
+    width: 500px;
     display: flex;
     flex-direction: column;
     padding: 25px;
@@ -205,13 +258,13 @@ header a:hover{
     padding-bottom: 5px;
 }
 
-footer {    
+footer {
     bottom: 0;
     width: 100%;
     background-color: var(--slate-950);
 }
-
-
+ 
+ 
 .rodape {
         height: 100px;
         display: flex;
@@ -219,12 +272,11 @@ footer {
         align-items: center;
         gap: 30px;
         color: white;
-
+ 
     /* display: flex;
     justify-content: center;
     align-items: center;
     gap: 30px; */
-
 }
 
 .icones-contato {
