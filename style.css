@@ -86,16 +86,17 @@ header a:hover{
 
 .nossa-equipe {
     height: 100vh;
-    background-color: cadetblue;
+    /* background-color: cadetblue; */
     display: flex;
     flex-direction: column;
+    margin-bottom: 50px;
 }
 
 .nossa-equipe h1{
     display: flex;
     justify-content: center;
-    padding-top: 50px;
-    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-bottom: 10px;
 }
 
 .cards {
@@ -103,10 +104,10 @@ header a:hover{
     margin-top: 40px;
     display: flex;
     justify-content: center;
-    gap: 25px;
+    gap: 20px;
     flex-wrap: wrap;
     /* background-color: aqua; */
-    height: 60%;
+    height: 100%;
     /* border-radius: 25px; */
 }
 
@@ -115,9 +116,7 @@ header a:hover{
     width: 650px;
     display: flex;
     flex-direction: column;
-    margin: 5px;
-    padding-left: 30px;
-    padding-top: 20px;
+    padding: 25px;
     border-radius: 25px;
 }
 
@@ -132,13 +131,14 @@ header a:hover{
 
 .integrante p {
     /* background-color: chartreuse; */
-    border-radius: 100px;
+    /* border-radius: 100px; */
+    padding: 5px;
 }
 
 .integrantePFP {
     background-color: #2563eb;
     font-size: 40px;
-    padding: 30px 35px;
+    border-radius: 25px;
 }
 
 .topo {
@@ -202,4 +202,31 @@ header a:hover{
 
 .botaoLogin:visited{
     background-color: var(--blue-500);
+    padding-bottom: 5px;
+}
+
+footer {    
+    bottom: 0;
+    width: 100%;
+    background-color: var(--slate-950);
+}
+
+
+.rodape {
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        color: white;
+
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px; */
+
+}
+
+.icones-contato {
+    padding-right: 5px;
 }
